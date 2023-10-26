@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(210, 215, 224);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+
+}
+
+.logo img {
+    width: 20%;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.nav-list {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover {
+    color: rgb(94, 98, 108);
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    padding: 20px 5px;
+    background-color: rgb(210, 215, 224);
+}
+
+#Search {
+    background-color: white;
+    border-radius: 25px;
+    height: 25px;
+    width: 30%;
+    border-color: white;
+
+}
+
+.btn {
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    background-color: aliceblue;
+    height: 28px;
+    width: 60px;
+}
+
+.first {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    background-color: rgb(213, 190, 234);
+    display: flex;
+}
+
+.right {
+    width: 50%;
+    background-color: rgb(197, 230, 219);
+    display: flex;
+}
+
+.left img {
+    justify-content: left;
+    width: 50%;
+    margin: 20px 20px;
+    border-radius: 20px;
+    border: 3px #f4eeee;
+    border-style: solid;
+}
+
+.right img {
+    justify-content: right;
+    width: 50%;
+    margin: 20px 20px;
+    border-radius: 20px;
+    border: 3px #f4eeee;
+    border-style: solid;
+}
+
+.text1 {
+    background-color: rgb(232, 218, 218);
+    margin: 50px 20px;
+    border-radius: 20px;
+    border: 3px #d8cece;
+    border-style: solid;
+    padding: 10px 10px;
+    height: 300px;
+}
+
+.mid img {
+    width: 100%;
+}
+
+.mid-section {
+    display: flex;
+}
+
+.mid-div-left {
+    width: 80%;
+
+
+}
+
+.mid-div-right {
+    width: 40%;
+    background-color: rgb(108, 110, 110);
+
+}
+
+.text2 {
+    background-color: rgb(255, 255, 255);
+    margin: 85px 20px;
+    border-radius: 20px;
+    border: 3px #d78888;
+    border-style: solid;
+    padding: 10px 10px;
+    height: 300px;
+}
+
+
+
+.footer {
+    background-color: black;
+    display: flex;
+}
+
+.leftfooter {
+    width: 90%;
+}
+
+.footer-list {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 25px 30px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+}
+
+.footer-list li a:hover {
+    color: rgb(238, 240, 245);
+
+}
+
+.footerlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlogo img {
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 100px;
+    margin: 20px 120px;
+}
+
+.rightfooter {
+    width: 30%;
+
+}
+
+.rightfooter img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-link {
+    list-style: none;
+
+}
+
+.footer-link li {
+    list-style: none;
+    padding: 10px 25px;
+
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: #f4eeee;
+
+}
+
+.container {
+    margin: 25x 30px;
+    display: flex;
+}
+
+.copyright {
+
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 0px;
+
+}
+
+/*CODE WITH HARRY*/
+
+
+.firstsection {
+    height: 100%;
+    display: flex;
+    padding: 5px 5px;
+    margin: 5px 5px;
+}
+
+
+/*.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}*/
+
+
+.firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width: 50%;
+
+}
+
+.secondhalf img{
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+
+.text-big{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.text-small{
+font-size: 18px;
+    
+}
+
+.btn-btn{
+         padding: 8px 20px;
+         margin: 7px 0;
+         border: 2px solid rgb(246, 213, 202);
+         border-radius: 8px;
+         background: red;
+         cursor: pointer;
+         color: #f9f8f8;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 20px;
+}
+.contact{
+    background-color: rgb(209, 223, 218);
+    margin: 0px 50px;
+    text-align: center;
+    width: 50%;
+}
